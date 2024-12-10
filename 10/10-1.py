@@ -15,7 +15,6 @@ def score(map: list[list[int]], visited: set[tuple[int, int]], i: int, j: int) -
   return res
 
 with open("prompt-10.txt", "r") as file:
-# with open("test.txt", "r") as file:
   map = [
     [int(x) for x in line.strip()]
     for line in file.read().strip().split()
